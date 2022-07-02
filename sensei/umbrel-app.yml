@@ -1,0 +1,29 @@
+manifestVersion: 1
+id: sensei
+category: Finance
+name: Sensei
+version: "v0.2.2-beta"
+tagline: Run your personal Lightning Network node
+description: >-
+  Get started with the Lightning network today with Sensei - a
+  Lightning Network implementation written in Rust.
+
+  The Lightning Network allows ultra cheap and almost instant Bitcoin transactions.
+  By running a Lightning node, you can not only self-custody your Bitcoin on
+  Lightning, but also earn sats by routing payments on the network.
+
+
+  Powered by Sensei from L2-Technology.
+developer: L2-Technology
+website: https://l2.technology/sensei
+dependencies:
+  - bitcoin
+repo: https://github.com/L2-Technology/sensei
+support: https://discord.gg/emWA9e9GCP
+port: 5401
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: /admin
+defaultPassword: ""

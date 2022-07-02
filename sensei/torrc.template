@@ -1,0 +1,7 @@
+# sensei web Hidden Service
+HiddenServiceDir /data/app-sensei-web
+HiddenServicePort 80 $APP_SENSEI_IP:$APP_SENSEI_PORT
+
+# sensei root node p2p Hidden Service
+HiddenServiceDir /data/app-sensei-root-node
+HiddenServicePort 9735 $APP_SENSEI_IP:$APP_SENSEI_ROOT_NODE_PORT
